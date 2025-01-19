@@ -1,0 +1,93 @@
+.dashboard-link {
+    text-decoration: none;
+    color: white;
+    font-size: 28px; 
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.8); 
+    padding: 20px 40px; 
+    border-radius: 12px; 
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.6);
+    transition: background 0.3s, transform 0.3s; 
+  }
+  
+  .dashboard-link:hover {
+    background: #1abc9c; 
+    transform: scale(1.2); 
+  }
+  
+ 
+  .navbar {
+    position: fixed;
+    top: 10px; 
+    right: 10px; 
+    z-index: 1000;
+  }
+  
+  .dashboard-container {
+    max-width: 600px; 
+    margin: 30px auto; 
+    padding: 15px; 
+    background: rgba(0, 0, 0, 0.8); 
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+  }
+  
+  /* Section Styling */
+  .section {
+    margin: 15px 0; 
+  }
+  
+  .section h2 {
+    color: #1abc9c;
+    font-size: 18px; 
+    margin-bottom: 8px;
+  }
+  
+  p {
+    font-size: 14px; 
+    line-height: 1.5; 
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%; 
+    margin-top: 10px;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+    font-size: 14px; 
+  }
+  
+  th {
+    background-color: #1abc9c;
+    color: white;
+  }
+  
+  /* Back Link Button */
+  .back-link {
+    display: inline-block;
+    margin-top: 15px; 
+    padding: 8px 15px;
+    background: #1abc9c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px; 
+    transition: background 0.3s;
+  }
+  
+  .back-link:hover {
+    background: #16a085;
+  }
+  .content {
+    position: relative;
+  }
